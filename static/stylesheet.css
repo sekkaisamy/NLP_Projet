@@ -1,0 +1,53 @@
+.boutton-prediction
+{
+    background-color: orange;
+    color: white;
+}
+.boutton-clear
+{
+    background-color: orange;
+    color: white;
+}
+.title-mod
+{
+    color: rgb(0, 0, 140);
+    font-family: 'Roboto', sans-serif;
+}
+.footpart
+{
+    color :red;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px; 
+    background-color: #f1f1f1;
+    text-align: center;
+    line-height: 50px; 
+}
+.Results
+{
+    color: rgb(0, 0, 140);
+    font-family: 'Roboto', sans-serif;
+}
+.Topic
+{
+    color: rgb(0, 0, 140);
+    font-family: 'Roboto', sans-serif;
+}
+.Result_emotion
+{
+    color: rgb(0, 0, 140);
+    font-family: 'Roboto', sans-serif;
+}
+.Result_sentiment
+{
+    color: rgb(0, 0, 140);
+    font-family: 'Roboto', sans-serif;
+}
+.Result_Offensive_Language
+{
+    color: rgb(0, 0, 140);
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/stylesheet.css">
+    <title>Classification Emotion & Sentiment</title>
+    <!-- Include the external JavaScript file -->
+    <script src="static/script.js"></script>
+</head>
+<body>
+    <h1 class="title-mod">Emotion & sentiment& Offensive|hate comment classification</h1>
+    <form >
+        <textarea id="inputData" placeholder="Enter your text here" rows="1" cols="50">this product is better than the previous one</textarea><br>
+        <button class="boutton-prediction" type="button" onclick="Prediction_sentiment();Prediction_emotion();Prediction_Offensive_Language()">Predict</button>
+        <button class="boutton-clear" type="button" onclick="Clear_all()">Clear_all</button>
+        <h2 class="Result_sentiment">Type of sentiment</h2>
+        <input id="inputData_sentiment" type="text" placeholder="" readonly >
+        <h2 class="Result_emotion">Type of Emotion</h2>
+        <input id="inputData_emotion" type="text" placeholder="" readonly>
+        <h2 class="Result_Offensive_Language" >Offensive or hate language?:</h2>
+        <pre id="Offensive_Language"></pre>
+        <input id="inputData_Offensive_Language"  type="text" placeholder="" readonly>
+    </form>
+
+</body>
+<footer>
+    <p class="footer_text_obj">Careful, this application is currently designed only for 
+        English sentiment& emotion(neutral,happiness,sadness,anger,surprise,fear,disgust,shame,guilt,joy)&hate/Offensive comment classification.</p></p>
+</footer>
+</html>
