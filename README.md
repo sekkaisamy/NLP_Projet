@@ -1,1 +1,2 @@
-<p> Conception d'une interface graphique pour la classification des sentiments, émotions, et propos haineux ou offensants dans les commentaires des réseaux sociaux</p>
+<p>Les trois modèles ont obtenu une valeur d'accuracy supérieure à 0,75 avec l'augmentation de données. Les modèles ont la même architecture, qui consiste en une couche de convolution, deux couches LSTM bidirectionnelles et deux couches denses</p>
+ 
